@@ -1,0 +1,25 @@
+{
+  "name": "spyke01/longrunningcronjobs",
+  "description": "Library to create a cron job that runs for a set period of time continuously.",
+  "type": "library",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/spyke01/LongRunningCronJobs/issues",
+    "source": "https://github.com/spyke01/LongRunningCronJobs"
+  },
+  "authors": [
+    {
+      "name": "Paden Clayton"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "monolog/monolog": "^3.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "LongRunningCronJobs\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
